@@ -17,7 +17,6 @@ const brainProgressionGame = () => {
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
   console.log('What number is missing in the progression?');
-
   let correctAnswersCount = 0;
 
   for (let i = 0; i < 3; i += 1) {
