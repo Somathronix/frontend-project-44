@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+/* eslint-disable no-console */
 import readlineSync from 'readline-sync';
 
 const isPrime = (num) => {
@@ -41,3 +43,4 @@ const brainPrimeGame = () => {
 };
 
 brainPrimeGame();
+/* eslint-enable no-console */

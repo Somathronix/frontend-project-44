@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+/* eslint-disable no-console */
 import readlineSync from 'readline-sync';
 
 const generateRandomNumber = (min, max) => Math.floor(Math.random() * (max - min) + min);
@@ -38,3 +38,4 @@ const brainCalcGame = () => {
 };
 
 brainCalcGame();
+/* eslint-enable no-console */

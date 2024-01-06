@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable no-console */
 
 import readlineSync from 'readline-sync';
 
@@ -35,3 +36,4 @@ const brainGcdGame = () => {
 };
 
 brainGcdGame();
+/* eslint-enable no-console */

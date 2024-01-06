@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+/* eslint-disable no-console */
 import readlineSync from 'readline-sync';
 
 const isEven = (num) => num % 2 === 0;
@@ -26,3 +26,4 @@ const brainEvenGame = () => {
 };
 
 brainEvenGame();
+/* eslint-enable no-console */

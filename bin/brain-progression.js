@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+/* eslint-disable no-console */
 import readlineSync from 'readline-sync';
 
 const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
@@ -45,3 +47,5 @@ const brainProgressionGame = () => {
 };
 
 brainProgressionGame();
+
+/* eslint-enable no-console */
